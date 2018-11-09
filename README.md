@@ -30,6 +30,9 @@ $ cd android
 $ gradlew clean
 ```
 
+### Download APK
+[basic-react-native.apk](https://drive.google.com/open?id=1TKKyS_t6rFKrCqGzJPCMwRE4TvouHPx7)
+
 ### Keystore
 ```bash
 MYAPP_RELEASE_STORE_FILE=basic-rn-ocp-key.keystore
