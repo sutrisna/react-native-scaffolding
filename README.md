@@ -19,11 +19,21 @@ $ cd react-native-scaffolding
 $ npm install
 $ react-native run-android
 ```
+4. Cara build ke APK
+```bash
+$ cd android
+$ gradlew assembleRelease
+```
+5. Jika ada update pada folder android
+```bash
+$ cd android
+$ gradlew clean
+```
 
 ### Keystore
 ```bash
 MYAPP_RELEASE_STORE_FILE=basic-rn-ocp-key.keystore
-MYAPP_RELEASE_KEY_ALIAS=ocp
+MYAPP_RELEASE_KEY_ALIAS=opc
 MYAPP_RELEASE_STORE_PASSWORD=reactnative123
 MYAPP_RELEASE_KEY_PASSWORD=reactnative123
 ```
