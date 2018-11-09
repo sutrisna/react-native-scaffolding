@@ -13,9 +13,10 @@
 ```bash
 $ git clone https://github.com/sutrisna/react-native-scaffolding.git
 ```
-4. Jalankan project, dengan buka cmd lalu arahkan path pada project
+3. Jalankan project, dengan buka cmd lalu arahkan path pada project
 ```bash
 $ cd react-native-scaffolding
+$ npm install
 $ react-native run-android
 ```
 
